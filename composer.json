@@ -1,0 +1,3 @@
+{ "name": "msads/agent-sdk-php", "description": "MS Ads Agent Exchange server SDK (offers, events, HMAC request signing)", "type": "library", "license": "MIT",
+  "homepage": "https://docs.msadsnetwork.com", "authors": [{ "name": "MS TECH IT PRIVATE LIMITED", "email": "partner@msadsnetwork.com" }],
+  "require": { "php": ">=7.4", "ext-curl": "*", "ext-json": "*" }, "autoload": { "psr-4": { "Msads\\AgentSdk\\": "src/" } } }
